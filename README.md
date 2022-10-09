@@ -2,7 +2,7 @@
 
 При подготовке к WorldSkills 2022, я выполнил третий модуль конкурса предыдущего года.  
 В задании было необходимо создать REST API для авиакомпании.  
-Ссылка на задание: https://docs.google.com/document/d/1g0zSb8ss4FPunlRE1Z0xRPfTKq8ux3id/edit
+Ссылка на задание: https://docs.google.com/document/d/1g0zSb8ss4FPunlRE1Z0xRPfTKq8ux3id
 
 ## Использованные технологии
 
