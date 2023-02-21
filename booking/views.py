@@ -113,6 +113,11 @@ class BookingView(views.APIView):
         flights = [booking.flight_from]
         if booking.flight_back:
             flights.append(booking.flight_back)
+
+        for flight in flights:
+            flight.flight.departure.date = flight.date
+            flight.flight.arrival.date = flight.date
+
         serializer = GetBookingResponseSerializer(
             {
                 "passengers": booking.passengers,

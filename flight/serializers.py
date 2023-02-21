@@ -1,5 +1,7 @@
 from rest_framework import serializers
 
+from booking.models import ActualFlight
+
 from .models import Flight, FlightJuncture
 
 
@@ -45,7 +47,7 @@ class ActualFlightSerializer(serializers.ModelSerializer):
     availability = serializers.IntegerField()
 
     class Meta:
-        model = Flight
+        model = ActualFlight
         fields = ("flight_id", "flight_code", "from", "to", "cost", "availability")
 
 
